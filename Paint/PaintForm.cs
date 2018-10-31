@@ -858,8 +858,13 @@ namespace Paint
             closeUseDialog(ex);
             if (ex.Cancel == false)//không phải cancel
             {
-                //pictureBox.Width = 500;
-                //pictureBox.Height = 500;
+                ImageSizeForm imageSizeForm = new ImageSizeForm(pictureBox.Width, pictureBox.Height);
+                imageSizeForm.StartPosition = FormStartPosition.CenterScreen;
+                if (imageSizeForm.ShowDialog(this) == DialogResult.OK)
+                {
+                    pictureBox.Width = imageSizeForm.Width;
+                    pictureBox.Height = imageSizeForm.Height;
+                }
                 drawing = new Bitmap(pictureBox.Width, pictureBox.Height);
                 g = Graphics.FromImage(drawing);
                 g.Clear(Color.White);

@@ -41,11 +41,12 @@
             // 
             this.reflectionLabel1.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square;
             this.reflectionLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reflectionLabel1.Location = new System.Drawing.Point(55, 2);
+            this.reflectionLabel1.Location = new System.Drawing.Point(67, 2);
             this.reflectionLabel1.Name = "reflectionLabel1";
+            this.reflectionLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.reflectionLabel1.Size = new System.Drawing.Size(97, 83);
             this.reflectionLabel1.TabIndex = 1;
-            this.reflectionLabel1.Text = "<b><font size=\"+6\"><font color=\"#33A1C9\">Paint</font></font></b>";
+            this.reflectionLabel1.Text = "<b><font size=\"+8\"><font color=\"#33A1C9\">Paint</font></font></b>";
             // 
             // labelX1
             // 
@@ -58,7 +59,8 @@
             this.labelX1.Name = "labelX1";
             this.labelX1.Size = new System.Drawing.Size(166, 96);
             this.labelX1.TabIndex = 2;
-            this.labelX1.Text = "Design: Nguyễn Duy Hùng\r\n                    155202778";
+            this.labelX1.Text = "Design: Trần Công Lập";
+            this.labelX1.TextAlignment = System.Drawing.StringAlignment.Center;
             // 
             // okButton
             // 
@@ -78,7 +80,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Location = new System.Drawing.Point(70, 166);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(70, 13);
+            this.linkLabel1.Size = new System.Drawing.Size(91, 17);
             this.linkLabel1.TabIndex = 4;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Links Update";

@@ -36,3 +36,17 @@ D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.csproj.CoreC
 D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.csproj.CopyComplete
 D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.exe
 D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.pdb
+D:\Learning\Win Form\Project\Paint\Paint\bin\Debug\Paint.exe.config
+D:\Learning\Win Form\Project\Paint\Paint\bin\Debug\Paint.exe
+D:\Learning\Win Form\Project\Paint\Paint\bin\Debug\Paint.pdb
+D:\Learning\Win Form\Project\Paint\Paint\bin\Debug\DevComponents.DotNetBar2.xml
+D:\Learning\Win Form\Project\Paint\Paint\obj\Debug\Paint.csprojAssemblyReference.cache
+D:\Learning\Win Form\Project\Paint\Paint\obj\Debug\Paint.InfoForm.resources
+D:\Learning\Win Form\Project\Paint\Paint\obj\Debug\Paint.PaintForm.resources
+D:\Learning\Win Form\Project\Paint\Paint\obj\Debug\Paint.Properties.Resources.resources
+D:\Learning\Win Form\Project\Paint\Paint\obj\Debug\Paint.csproj.GenerateResource.cache
+D:\Learning\Win Form\Project\Paint\Paint\obj\Debug\Paint.csproj.CoreCompileInputs.cache
+D:\Learning\Win Form\Project\Paint\Paint\obj\Debug\Paint.csproj.CopyComplete
+D:\Learning\Win Form\Project\Paint\Paint\obj\Debug\Paint.exe
+D:\Learning\Win Form\Project\Paint\Paint\obj\Debug\Paint.pdb
+D:\Learning\Win Form\Project\Paint\Paint\obj\Debug\Paint.ImageSizeForm.resources
