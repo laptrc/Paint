@@ -1,0 +1,38 @@
+E:\TÀI LIỆU CHUYÊN NGÀNH\LTTQ\LTTQ\LTTQ\14520748_Paint\Sources Code\Paint\bin\Debug\Paint.exe.config
+E:\TÀI LIỆU CHUYÊN NGÀNH\LTTQ\LTTQ\LTTQ\14520748_Paint\Sources Code\Paint\bin\Debug\Paint.exe
+E:\TÀI LIỆU CHUYÊN NGÀNH\LTTQ\LTTQ\LTTQ\14520748_Paint\Sources Code\Paint\bin\Debug\Paint.pdb
+E:\TÀI LIỆU CHUYÊN NGÀNH\LTTQ\LTTQ\LTTQ\14520748_Paint\Sources Code\Paint\bin\Debug\DevComponents.DotNetBar2.dll
+E:\TÀI LIỆU CHUYÊN NGÀNH\LTTQ\LTTQ\LTTQ\14520748_Paint\Sources Code\Paint\bin\Debug\DevComponents.DotNetBar2.xml
+E:\TÀI LIỆU CHUYÊN NGÀNH\LTTQ\LTTQ\LTTQ\14520748_Paint\Sources Code\Paint\obj\Debug\Paint.csprojResolveAssemblyReference.cache
+E:\TÀI LIỆU CHUYÊN NGÀNH\LTTQ\LTTQ\LTTQ\14520748_Paint\Sources Code\Paint\obj\Debug\Paint.InfoForm.resources
+E:\TÀI LIỆU CHUYÊN NGÀNH\LTTQ\LTTQ\LTTQ\14520748_Paint\Sources Code\Paint\obj\Debug\Paint.PaintForm.resources
+E:\TÀI LIỆU CHUYÊN NGÀNH\LTTQ\LTTQ\LTTQ\14520748_Paint\Sources Code\Paint\obj\Debug\Paint.Properties.Resources.resources
+E:\TÀI LIỆU CHUYÊN NGÀNH\LTTQ\LTTQ\LTTQ\14520748_Paint\Sources Code\Paint\obj\Debug\Paint.csproj.GenerateResource.Cache
+E:\TÀI LIỆU CHUYÊN NGÀNH\LTTQ\LTTQ\LTTQ\14520748_Paint\Sources Code\Paint\obj\Debug\Paint.exe
+E:\TÀI LIỆU CHUYÊN NGÀNH\LTTQ\LTTQ\LTTQ\14520748_Paint\Sources Code\Paint\obj\Debug\Paint.pdb
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\bin\Debug\Paint.exe.config
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\bin\Debug\Paint.exe
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\bin\Debug\Paint.pdb
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\obj\Debug\Paint.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\obj\Debug\Paint.InfoForm.resources
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\obj\Debug\Paint.PaintForm.resources
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\obj\Debug\Paint.Properties.Resources.resources
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\obj\Debug\Paint.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\obj\Debug\Paint.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\obj\Debug\Paint.csproj.CopyComplete
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\obj\Debug\Paint.exe
+C:\Users\Admin\Desktop\LTTQ\Đồ án\15520278_Paint\Sources Code\Paint\obj\Debug\Paint.pdb
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\bin\Debug\Paint.exe.config
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\bin\Debug\Paint.exe
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\bin\Debug\Paint.pdb
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\bin\Debug\DevComponents.DotNetBar2.xml
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.csprojAssemblyReference.cache
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.InfoForm.resources
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.PaintForm.resources
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.Properties.Resources.resources
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.csproj.GenerateResource.cache
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.csproj.CoreCompileInputs.cache
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.csproj.CopyComplete
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.exe
+D:\Learning\Win Form\Paint\Paint\Sources Code\Paint\obj\Debug\Paint.pdb
