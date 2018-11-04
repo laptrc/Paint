@@ -157,9 +157,9 @@
             this.viewTab});
             this.ribbonControl1.KeyTipsFont = new System.Drawing.Font("Tahoma", 7F);
             this.ribbonControl1.Location = new System.Drawing.Point(5, 1);
-            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(4);
             this.ribbonControl1.Name = "ribbonControl1";
-            this.ribbonControl1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 4);
+            this.ribbonControl1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 3);
             this.ribbonControl1.QuickToolbarItems.AddRange(new DevComponents.DotNetBar.BaseItem[] {
             this.saveItem,
             this.undoItem,
@@ -195,11 +195,11 @@
             this.ribbonPanel1.Controls.Add(this.imageBar);
             this.ribbonPanel1.Controls.Add(this.clipBoardBar);
             this.ribbonPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ribbonPanel1.Location = new System.Drawing.Point(0, 74);
-            this.ribbonPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ribbonPanel1.Location = new System.Drawing.Point(0, 53);
+            this.ribbonPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.ribbonPanel1.Name = "ribbonPanel1";
-            this.ribbonPanel1.Padding = new System.Windows.Forms.Padding(4, 0, 4, 4);
-            this.ribbonPanel1.Size = new System.Drawing.Size(1074, 112);
+            this.ribbonPanel1.Padding = new System.Windows.Forms.Padding(4, 0, 4, 3);
+            this.ribbonPanel1.Size = new System.Drawing.Size(1074, 134);
             // 
             // 
             // 
@@ -234,9 +234,9 @@
             this.colorPickerDropDown2});
             this.ColorsBar.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.ColorsBar.Location = new System.Drawing.Point(603, 0);
-            this.ColorsBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ColorsBar.Margin = new System.Windows.Forms.Padding(4);
             this.ColorsBar.Name = "ColorsBar";
-            this.ColorsBar.Size = new System.Drawing.Size(116, 108);
+            this.ColorsBar.Size = new System.Drawing.Size(116, 131);
             this.ColorsBar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.ColorsBar.TabIndex = 6;
             this.ColorsBar.Text = "Colors";
@@ -291,9 +291,9 @@
             this.sizeItem});
             this.sizeBar.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.sizeBar.Location = new System.Drawing.Point(535, 0);
-            this.sizeBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sizeBar.Margin = new System.Windows.Forms.Padding(4);
             this.sizeBar.Name = "sizeBar";
-            this.sizeBar.Size = new System.Drawing.Size(68, 108);
+            this.sizeBar.Size = new System.Drawing.Size(68, 131);
             this.sizeBar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.sizeBar.TabIndex = 5;
             this.sizeBar.Text = "Size";
@@ -371,9 +371,9 @@
             this.shapesContainer});
             this.shapesBar.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.shapesBar.Location = new System.Drawing.Point(390, 0);
-            this.shapesBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.shapesBar.Margin = new System.Windows.Forms.Padding(4);
             this.shapesBar.Name = "shapesBar";
-            this.shapesBar.Size = new System.Drawing.Size(145, 108);
+            this.shapesBar.Size = new System.Drawing.Size(145, 131);
             this.shapesBar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.shapesBar.TabIndex = 4;
             this.shapesBar.Text = "Shapes";
@@ -475,9 +475,9 @@
             this.fillContainer});
             this.toolsBar.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.toolsBar.Location = new System.Drawing.Point(197, 0);
-            this.toolsBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.toolsBar.Margin = new System.Windows.Forms.Padding(4);
             this.toolsBar.Name = "toolsBar";
-            this.toolsBar.Size = new System.Drawing.Size(193, 108);
+            this.toolsBar.Size = new System.Drawing.Size(193, 131);
             this.toolsBar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.toolsBar.TabIndex = 2;
             this.toolsBar.Text = "Tools";
@@ -605,9 +605,9 @@
             this.imageContainer});
             this.imageBar.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.imageBar.Location = new System.Drawing.Point(133, 0);
-            this.imageBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.imageBar.Margin = new System.Windows.Forms.Padding(4);
             this.imageBar.Name = "imageBar";
-            this.imageBar.Size = new System.Drawing.Size(64, 108);
+            this.imageBar.Size = new System.Drawing.Size(64, 131);
             this.imageBar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.imageBar.TabIndex = 1;
             this.imageBar.Text = "Image";
@@ -651,7 +651,7 @@
             // 
             this.resizeItem.ButtonStyle = DevComponents.DotNetBar.eButtonStyle.ImageAndText;
             this.resizeItem.ColorTable = DevComponents.DotNetBar.eButtonColor.Blue;
-            this.resizeItem.Image = ((System.Drawing.Image)(resources.GetObject("resizeItem.Image")));
+            this.resizeItem.Image = global::Paint.Properties.Resources.resize;
             this.resizeItem.Name = "resizeItem";
             this.resizeItem.PopupType = DevComponents.DotNetBar.ePopupType.ToolBar;
             this.resizeItem.Text = "Resize";
@@ -677,9 +677,9 @@
             this.cutcopyContainer});
             this.clipBoardBar.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.clipBoardBar.Location = new System.Drawing.Point(4, 0);
-            this.clipBoardBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clipBoardBar.Margin = new System.Windows.Forms.Padding(4);
             this.clipBoardBar.Name = "clipBoardBar";
-            this.clipBoardBar.Size = new System.Drawing.Size(129, 108);
+            this.clipBoardBar.Size = new System.Drawing.Size(129, 131);
             this.clipBoardBar.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.clipBoardBar.TabIndex = 0;
             this.clipBoardBar.Text = "ClipBoard";
@@ -746,9 +746,9 @@
             this.ribbonPanel2.Controls.Add(this.ribbonBar6);
             this.ribbonPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ribbonPanel2.Location = new System.Drawing.Point(0, 0);
-            this.ribbonPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ribbonPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.ribbonPanel2.Name = "ribbonPanel2";
-            this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(4, 0, 4, 4);
+            this.ribbonPanel2.Padding = new System.Windows.Forms.Padding(4, 0, 4, 3);
             this.ribbonPanel2.Size = new System.Drawing.Size(1093, 186);
             // 
             // 
@@ -783,7 +783,7 @@
             this.zoomOutItem});
             this.ribbonBar6.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F";
             this.ribbonBar6.Location = new System.Drawing.Point(4, 0);
-            this.ribbonBar6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ribbonBar6.Margin = new System.Windows.Forms.Padding(4);
             this.ribbonBar6.Name = "ribbonBar6";
             this.ribbonBar6.Size = new System.Drawing.Size(125, 113);
             this.ribbonBar6.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -1041,7 +1041,7 @@
             this.panelEx1.Controls.Add(this.pictureBox);
             this.panelEx1.DisabledBackColor = System.Drawing.Color.Empty;
             this.panelEx1.Location = new System.Drawing.Point(7, 191);
-            this.panelEx1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelEx1.Margin = new System.Windows.Forms.Padding(4);
             this.panelEx1.Name = "panelEx1";
             this.panelEx1.Size = new System.Drawing.Size(1067, 369);
             this.panelEx1.Style.Alignment = System.Drawing.StringAlignment.Center;
@@ -1058,7 +1058,7 @@
             this.pictureBox.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(1066, 369);
             this.pictureBox.TabIndex = 8;
@@ -1076,7 +1076,7 @@
             this.Controls.Add(this.panelEx1);
             this.Controls.Add(this.ribbonControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MinimumSize = new System.Drawing.Size(794, 481);
             this.Name = "PaintForm";
             this.Text = "Paint";

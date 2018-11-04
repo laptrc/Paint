@@ -1161,14 +1161,22 @@ namespace Paint
             imageSizeForm.StartPosition = FormStartPosition.CenterScreen;
             if (imageSizeForm.ShowDialog(this) == DialogResult.OK)
             {
+                Bitmap drawingClone = (Bitmap)drawing.Clone();
+                drawing = new Bitmap(imageSizeForm.Width, imageSizeForm.Height);
+
+                using (Graphics g = Graphics.FromImage((Image)drawing))
+                {
+                    g.InterpolationMode = InterpolationMode.HighQualityBicubic;
+                    g.DrawImageUnscaled(drawingClone, 0, 0, imageSizeForm.Width, imageSizeForm.Height);
+                }
+                g = Graphics.FromImage(drawing);
+                drawingList.AddBaseCapacity(drawing);
+
                 pictureBox.Width = imageSizeForm.Width;
                 pictureBox.Height = imageSizeForm.Height;
+                pictureBox.Image = drawing;
+                
             }
-            drawing = new Bitmap(pictureBox.Width, pictureBox.Height);
-            g = Graphics.FromImage(drawing);
-            g.Clear(Color.White);
-            drawingList.AddBaseCapacity(drawing);
-            pictureBox.Image = drawing;
         }
 
         private void enableFill()
@@ -1232,8 +1240,8 @@ namespace Paint
                         if (copyItem.Enabled == true) // nếu button Copy đang cho phép
                             copyItem_Click(this, e);
                         break;
-                    case Keys.V: //copy
-                        if (pasteItem.Enabled == true) // nếu button Copy đang cho phép
+                    case Keys.V: //paste
+                        if (pasteItem.Enabled == true) // nếu button Paste đang cho phép
                             pasteItem_Click(this, e);
                         break;
                 }
