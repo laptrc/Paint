@@ -1154,6 +1154,23 @@ namespace Paint
             disableFill();
             disableClipBoard();
         }
+
+        private void resizeItem_Click(object sender, EventArgs e)
+        {
+            ImageSizeForm imageSizeForm = new ImageSizeForm(pictureBox.Width, pictureBox.Height);
+            imageSizeForm.StartPosition = FormStartPosition.CenterScreen;
+            if (imageSizeForm.ShowDialog(this) == DialogResult.OK)
+            {
+                pictureBox.Width = imageSizeForm.Width;
+                pictureBox.Height = imageSizeForm.Height;
+            }
+            drawing = new Bitmap(pictureBox.Width, pictureBox.Height);
+            g = Graphics.FromImage(drawing);
+            g.Clear(Color.White);
+            drawingList.AddBaseCapacity(drawing);
+            pictureBox.Image = drawing;
+        }
+
         private void enableFill()
         {
             fillSolidItem.Enabled = true;
