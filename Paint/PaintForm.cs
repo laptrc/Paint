@@ -1164,12 +1164,14 @@ namespace Paint
                 Bitmap drawingClone = (Bitmap)drawing.Clone();
                 drawing = new Bitmap(imageSizeForm.Width, imageSizeForm.Height);
 
+                g = Graphics.FromImage(drawing);
+                g.Clear(Color.White);
+
                 using (Graphics g = Graphics.FromImage((Image)drawing))
                 {
                     g.InterpolationMode = InterpolationMode.HighQualityBicubic;
                     g.DrawImageUnscaled(drawingClone, 0, 0, imageSizeForm.Width, imageSizeForm.Height);
                 }
-                g = Graphics.FromImage(drawing);
                 drawingList.AddBaseCapacity(drawing);
 
                 pictureBox.Width = imageSizeForm.Width;
