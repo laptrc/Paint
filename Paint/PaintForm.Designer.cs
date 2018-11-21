@@ -42,6 +42,7 @@
             this.sizeItem2 = new DevComponents.DotNetBar.ButtonItem();
             this.sizeItem3 = new DevComponents.DotNetBar.ButtonItem();
             this.sizeItem4 = new DevComponents.DotNetBar.ButtonItem();
+            this.sizeItem5 = new DevComponents.DotNetBar.ButtonItem();
             this.shapesBar = new DevComponents.DotNetBar.RibbonBar();
             this.shapesContainer = new DevComponents.DotNetBar.GalleryContainer();
             this.lineItem = new DevComponents.DotNetBar.ButtonItem();
@@ -317,7 +318,8 @@
             this.sizeItem1,
             this.sizeItem2,
             this.sizeItem3,
-            this.sizeItem4});
+            this.sizeItem4,
+            this.sizeItem5});
             this.sizeItem.SubItemsExpandWidth = 14;
             this.sizeItem.Text = "3 px";
             // 
@@ -352,6 +354,14 @@
             this.sizeItem4.Text = "New Item";
             this.sizeItem4.Tooltip = "8 px";
             this.sizeItem4.Click += new System.EventHandler(this.sizeItem4_Click);
+            // 
+            // sizeItem5
+            // 
+            this.sizeItem5.Image = ((System.Drawing.Image)(resources.GetObject("sizeItem5.Image")));
+            this.sizeItem5.Name = "sizeItem5";
+            this.sizeItem5.Text = "Custom Size";
+            this.sizeItem5.Tooltip = "Custom Size";
+            this.sizeItem5.Click += new System.EventHandler(this.sizeItem5_Click);
             // 
             // shapesBar
             // 
@@ -1164,6 +1174,7 @@
         private DevComponents.DotNetBar.ButtonItem sizeItem2;
         private DevComponents.DotNetBar.ButtonItem sizeItem3;
         private DevComponents.DotNetBar.ButtonItem sizeItem4;
+        private DevComponents.DotNetBar.ButtonItem sizeItem5;
         private DevComponents.DotNetBar.ButtonItem diamondItem;
         private DevComponents.DotNetBar.PanelEx panelEx1;
         private System.Windows.Forms.PictureBox pictureBox;

@@ -830,6 +830,17 @@ namespace Paint
             sizeItem.Text = "8 px";
         }
 
+        private void sizeItem5_Click(object sender, EventArgs e)
+        {
+            OneTextBoxForm oneTextBoxForm = new OneTextBoxForm("Custom Size", "Size", currentWidth);
+            oneTextBoxForm.StartPosition = FormStartPosition.CenterScreen;
+            if (oneTextBoxForm.ShowDialog(this) == DialogResult.OK)
+            {
+                currentWidth = oneTextBoxForm.Value;
+                sizeItem.Text = oneTextBoxForm.Value + " px";
+            }
+        }
+
 
         //COLOR HANDLE
         private void colorPickerDropDown1_Click(object sender, System.EventArgs e)
