@@ -52,7 +52,6 @@ namespace Paint
         {
             InitializeComponent();
             //this.Paint += new System.Windows.Forms.PaintEventHandler(pen);
-            //set tooltips cho button
             setTooltips();
             drawing = new Bitmap(pictureBox.Width, pictureBox.Height, pictureBox.CreateGraphics());
             g = Graphics.FromImage(drawing);
@@ -66,7 +65,7 @@ namespace Paint
             g = Graphics.FromImage(drawing);
 
 
-            //chọn màu cho 2 ẻm colorPicker
+            //chọn màu cho 2 colorPicker
             colorPickerDropDown1.SelectedColor = Color.Black;
             colorPickerDropDown2.SelectedColor = Color.White;
         }
@@ -1152,7 +1151,6 @@ namespace Paint
             selectItem.Checked = false;
             eraserItem.Checked = false;
             colorPickerItem.Checked = false;
-            //magnifierItem.Checked = false;
 
             lineItem.Checked = false;
             ovalItem.Checked = false;
@@ -1223,12 +1221,10 @@ namespace Paint
         //FORM HANDLE
         private void shortcutKey(object sender, System.Windows.Forms.KeyEventArgs e)
         {
-            Console.Write("aa");
             if (e.Control)
                 switch (e.KeyCode)
                 {
                     case Keys.Z: //ctrl +z => undo
-                        Console.WriteLine("hus");
                         undoItem_Click(this, e); // truyền đại vẫn ok
                         break;
 

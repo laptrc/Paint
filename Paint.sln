@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paint", "Paint\Paint.csproj", "{9B1F34DD-4002-4C7C-A005-5C7A7CC51CEA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Paint Setup", "Paint Setup\Paint Setup.vdproj", "{6C12C87C-833C-4A08-9813-1698998BCD3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,13 @@ Global
 		{9B1F34DD-4002-4C7C-A005-5C7A7CC51CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B1F34DD-4002-4C7C-A005-5C7A7CC51CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B1F34DD-4002-4C7C-A005-5C7A7CC51CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C12C87C-833C-4A08-9813-1698998BCD3F}.Debug|Any CPU.ActiveCfg = Debug
+		{6C12C87C-833C-4A08-9813-1698998BCD3F}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7E8BEF8-93C0-4C0C-A8F6-59A947B1FCCD}
 	EndGlobalSection
 EndGlobal

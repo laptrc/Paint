@@ -1,0 +1,8 @@
+D:\Learning\Win Form\Project\Paint\Paint\obj\Release\Paint.csprojAssemblyReference.cache
+D:\Learning\Win Form\Project\Paint\Paint\obj\Release\Paint.ImageSizeForm.resources
+D:\Learning\Win Form\Project\Paint\Paint\obj\Release\Paint.InfoForm.resources
+D:\Learning\Win Form\Project\Paint\Paint\obj\Release\Paint.OneTextBoxForm.resources
+D:\Learning\Win Form\Project\Paint\Paint\obj\Release\Paint.PaintForm.resources
+D:\Learning\Win Form\Project\Paint\Paint\obj\Release\Paint.Properties.Resources.resources
+D:\Learning\Win Form\Project\Paint\Paint\obj\Release\Paint.csproj.GenerateResource.cache
+D:\Learning\Win Form\Project\Paint\Paint\obj\Release\Paint.csproj.CoreCompileInputs.cache
