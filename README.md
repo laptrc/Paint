@@ -10,4 +10,4 @@ Use DotNetBar to create UI.
 
 # Screenshots
 
-<img src="https://lh3.google.com/u/0/d/1QnzeuFw1gDXGxDhhEdZqhMbeAHPhna_Q=w1920-h942-iv1">
+<img src="https://storage.googleapis.com/randomlife2/2018/12/09/Screenshot-1.png">
