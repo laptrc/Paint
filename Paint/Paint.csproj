@@ -62,6 +62,12 @@
       <DependentUpon>InfoForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ListExtra.cs" />
+    <Compile Include="OneTextBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OneTextBoxForm.Designer.cs">
+      <DependentUpon>OneTextBoxForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="PaintForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InfoForm.resx">
       <DependentUpon>InfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OneTextBoxForm.resx">
+      <DependentUpon>OneTextBoxForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PaintForm.resx">
       <DependentUpon>PaintForm.cs</DependentUpon>
@@ -327,6 +336,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="paint32.ico" />
+    <Content Include="Resources\add.png" />
     <None Include="Resources\paste4.png" />
     <None Include="Resources\select5.png" />
     <None Include="Resources\paste3.png" />
