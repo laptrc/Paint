@@ -11,3 +11,6 @@ Use DotNetBar to create UI.
 # Screenshots
 
 <img src="https://storage.googleapis.com/randomlife2/2018/12/09/Screenshot-1.png">
+
+# Video
+https://youtu.be/VTHCNVeus5Y
