@@ -23,7 +23,7 @@ namespace Paint
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://drive.google.com/drive/folders/0B-96z5yIHFLaMk1oNVg0c1Y2WFU?usp=sharing");
+            System.Diagnostics.Process.Start("https://github.com/laptrc/Paint");
         }
     }
 }
